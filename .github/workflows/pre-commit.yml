@@ -17,9 +17,8 @@ jobs:
     - name: Install dependencies
       run: |
         uv pip install -r requirements.txt --system
+    - name: UT
+      run: |
+        pytest
     - name: pre-commit for pre-commit
       uses: pre-commit/action@v3.0.1
-    - name: pre-commit for pre-push
-      uses: pre-commit/action@v3.0.1
-      with:
-        extra_args: --all-files --hook-stage pre-push
