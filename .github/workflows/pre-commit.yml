@@ -15,3 +15,6 @@ jobs:
         curl -LsSf https://astral.sh/uv/install.sh | sh
     - uses: actions/setup-python@v3
     - uses: pre-commit/action@v3.0.1
+    - uses: pre-commit/action@v3.0.1
+      with:
+        extra_args: --all-files --hook-stage pre-push
