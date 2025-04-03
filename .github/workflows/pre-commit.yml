@@ -22,7 +22,7 @@ jobs:
         uv pip install -r requirements.txt --system
     - name: Install pytest-cov
       run: |
-        uv pip install pytest-cov
+        uv pip install pytest-cov --system
     - name: Run unit tests with coverage
       run: |
         python -m pytest --cov-report term-missing --cov=src  # Run tests with coverage
