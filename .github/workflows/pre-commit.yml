@@ -20,8 +20,8 @@ jobs:
     - name: Install dependencies
       run: |
         uv pip install -r requirements.txt --system
-    - name: UT
+    - name: Run unit tests
       run: |
-        pytest
+        uv run pytest tests/ --disable-warnings
     - name: pre-commit for pre-commit
       uses: pre-commit/action@v3.0.1
