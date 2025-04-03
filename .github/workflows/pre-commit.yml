@@ -22,6 +22,6 @@ jobs:
         uv pip install -r requirements.txt --system
     - name: Run unit tests
       run: |
-        uv run pytest tests/ --disable-warnings
+        python -m pytest
     - name: pre-commit for pre-commit
       uses: pre-commit/action@v3.0.1
