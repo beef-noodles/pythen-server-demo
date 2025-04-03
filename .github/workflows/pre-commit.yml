@@ -19,6 +19,7 @@ jobs:
         uv venv .venv
         source .venv/bin/activate
         uv pip install -r requirements.txt
+        uv pip install pytest
     - uses: pre-commit/action@v3.0.1
     - uses: pre-commit/action@v3.0.1
       with:
