@@ -24,7 +24,7 @@ dependencies = [
     "google-auth==2.38.0",
     "google-cloud-secret-manager==2.23.0",
     "googleapis-common-protos==1.67.0",
-    "grpc-google-iam-v1==0.14.0",
+    "grpc-google-iam-v1==0.14.2",
     "grpcio==1.70.0",
     "grpcio-status==1.70.0",
     "gunicorn==21.2.0",
