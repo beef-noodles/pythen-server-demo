@@ -13,7 +13,7 @@ jobs:
     - name: Set up uv
       run: |
         curl -LsSf https://astral.sh/uv/install.sh | sh
-    - uses: actions/setup-python@v3
+    - uses: actions/setup-python@v5
     - name: Set PYTHONPATH
       run: |
         echo "PYTHONPATH=$(pwd)/src" >> $GITHUB_ENV
