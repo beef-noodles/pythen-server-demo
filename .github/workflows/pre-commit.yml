@@ -19,12 +19,12 @@ jobs:
         echo "PYTHONPATH=$(pwd)/src" >> $GITHUB_ENV
     - name: Install dependencies
       run: |
-        uv pip install -r requirements.txt --system
+        uv pip install . --system
     - name: Install pytest-cov
       run: |
         uv pip install pytest-cov --system
     - name: Run unit tests with coverage
       run: |
-        python -m pytest --cov-report term-missing --cov=src  # Run tests with coverage
+        uv pytest --cov-report term-missing --cov=src
     - name: pre-commit for pre-commit
       uses: pre-commit/action@v3.0.1

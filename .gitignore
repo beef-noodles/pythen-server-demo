@@ -8,3 +8,4 @@ dist
 logs
 .DS_Store
 instance
+build
