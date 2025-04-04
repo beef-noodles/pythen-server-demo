@@ -17,12 +17,9 @@ jobs:
     - name: Set PYTHONPATH
       run: |
         echo "PYTHONPATH=$(pwd)/src" >> $GITHUB_ENV
-    - name: Install dependencies
+    - name: Install dependencies with dev extras
       run: |
-        uv pip install . --system
-    - name: Install pytest-cov
-      run: |
-        uv pip install pytest-cov --system
+        uv pip install ".[dev]" --system
     - name: Run unit tests with coverage
       run: |
         uv pytest --cov-report term-missing --cov=src
