@@ -60,7 +60,7 @@ dependencies = [
 
 [tool.setuptools.packages.find]
 where = ["."]
-include = ["src*"]
+include = ["src*", "tests*"]
 
 [dependency-groups]
 dev = [
@@ -74,3 +74,10 @@ dev = [
 
 [project.scripts]
 start = "src.main:main"
+
+[tool.pytest.ini_options]
+pythonpath = [
+    ".",
+    "src",
+]
+testpaths = ["tests"]
