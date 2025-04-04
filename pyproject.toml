@@ -52,7 +52,7 @@ dependencies = [
     "scramp==1.4.5",
     "six==1.17.0",
     "sqlalchemy==2.0.40",
-    "typing-extensions==4.12.2",
+    "typing-extensions==4.13.1",
     "urllib3==2.3.0",
     "uuid-utils==0.10.0",
     "uuid-v7==1.0.0",
