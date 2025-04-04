@@ -27,7 +27,7 @@ dependencies = [
     "grpc-google-iam-v1==0.14.0",
     "grpcio==1.70.0",
     "grpcio-status==1.70.0",
-    "gunicorn==21.2.0",
+    "gunicorn==23.0.0",
     "idna==3.10",
     "iniconfig==2.0.0",
     "jinja2==3.1.5",
