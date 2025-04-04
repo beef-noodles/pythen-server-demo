@@ -10,7 +10,7 @@ authors = [{ name = "Your Name", email = "your.email@example.com" }]
 readme = "README.md"
 license = { text = "MIT" }
 dependencies = [
-    "alembic==1.14.1",
+    "alembic==1.15.2",
     "asn1crypto==1.5.1",
     "build==1.2.2.post1",
     "cachetools==5.5.1",
@@ -27,7 +27,7 @@ dependencies = [
     "grpc-google-iam-v1==0.14.0",
     "grpcio==1.70.0",
     "grpcio-status==1.70.0",
-    "gunicorn==21.2.0",
+    "gunicorn==23.0.0",
     "idna==3.10",
     "iniconfig==2.0.0",
     "jinja2==3.1.5",
@@ -44,11 +44,11 @@ dependencies = [
     "pyproject-hooks==1.2.0",
     "python-dateutil==2.9.0.post0",
     "python-dotenv==1.1.0",
-    "pytz==2025.1",
+    "pytz==2025.2",
     "pyyaml>=6.0.2",
     "requests==2.32.3",
     "rsa==4.9",
-    "ruff==0.9.6",
+    "ruff==0.11.3",
     "scramp==1.4.5",
     "six==1.17.0",
     "sqlalchemy==2.0.38",
