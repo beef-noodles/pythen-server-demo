@@ -22,6 +22,6 @@ jobs:
         uv pip install ".[dev]" --system
     - name: Run unit tests with coverage
       run: |
-        uv pytest --cov-report term-missing --cov=src
+        uv run pytest --cov-report term-missing --cov=src
     - name: pre-commit for pre-commit
       uses: pre-commit/action@v3.0.1
