@@ -21,7 +21,7 @@ dependencies = [
     "flask-httpauth>=4.8.0",
     "flask-migrate>=4.1.0",
     "google-api-core==2.24.1",
-    "google-auth==2.38.0",
+    "google-auth==2.39.0",
     "google-cloud-secret-manager==2.23.0",
     "googleapis-common-protos==1.69.2",
     "grpc-google-iam-v1==0.14.0",
