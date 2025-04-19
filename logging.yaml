@@ -5,6 +5,16 @@ formatters:
   simple:
     format: "%(asctime)s - %(name)s - %(levelname)s - %(message)s"
 
+  colored:
+    format: "%(log_color)s%(asctime)s - %(levelname)s - %(threadName)s - %(filename)s:%(lineno)d[%(funcName)s] - %(message)s"
+    class: colorlog.ColoredFormatter
+    log_colors:
+      DEBUG: "cyan"
+      INFO: "green"
+      WARNING: "yellow"
+      ERROR: "red"
+      CRITICAL: "red,bg_white"
+
 handlers:
   console:
     class: logging.StreamHandler
@@ -30,6 +40,12 @@ handlers:
     backupCount: 20
     encoding: utf8
 
+  colored_console:
+    class: logging.StreamHandler
+    level: DEBUG
+    formatter: colored
+    stream: ext://sys.stdout
+
 loggers:
   my_module:
     level: ERROR
@@ -38,4 +54,4 @@ loggers:
 
 root:
   level: INFO
-  handlers: [console, info_file_handler, error_file_handler]
+  handlers: [colored_console, info_file_handler, error_file_handler]
