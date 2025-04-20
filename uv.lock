@@ -252,7 +252,7 @@ wheels = [
 
 [[package]]
 name = "google-cloud-secret-manager"
-version = "2.23.0"
+version = "2.23.3"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "google-api-core", extra = ["grpc"] },
@@ -261,9 +261,9 @@ dependencies = [
     { name = "proto-plus" },
     { name = "protobuf" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/63/a4/eebd85bf4a02371eaa2305f121411336cd5d559653adc162adfcc594c475/google_cloud_secret_manager-2.23.0.tar.gz", hash = "sha256:0249f433b6f0899b5e2adfc495e5b2d4a76c484937cad7c27e2b374bebf8f248", size = 262581 }
+sdist = { url = "https://files.pythonhosted.org/packages/99/73/533fca3a94ef6cf57fbd0cf6fa57c8865ba8173542a505272869a1b7be85/google_cloud_secret_manager-2.23.3.tar.gz", hash = "sha256:598c4c0a9d10d49d500eb4aea3255dff250aa2f92c028f5c97e3b367f768c808", size = 268671 }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/20/85/b629bbb730977cf52908fdc44dcefab86dcb6b1b562bf3e2a385608d25d3/google_cloud_secret_manager-2.23.0-py2.py3-none-any.whl", hash = "sha256:fc4c28dd3e932b89d1057100c6625686a43b5ca26e6dd73ffea2afbfbbc97209", size = 213550 },
+    { url = "https://files.pythonhosted.org/packages/1e/ec/230606fd826d466ee5b014c6a3f04d47038b1146a3a560645889817d9fea/google_cloud_secret_manager-2.23.3-py3-none-any.whl", hash = "sha256:fe06ebb2f71eb739ecc6c14ea9e8dafcb9bbc6123b78b2f8986ece6733d23a1a", size = 217097 },
 ]
 
 [[package]]
@@ -715,7 +715,7 @@ requires-dist = [
     { name = "flask-migrate", specifier = ">=4.1.0" },
     { name = "google-api-core", specifier = "==2.24.1" },
     { name = "google-auth", specifier = "==2.39.0" },
-    { name = "google-cloud-secret-manager", specifier = "==2.23.0" },
+    { name = "google-cloud-secret-manager", specifier = "==2.23.3" },
     { name = "googleapis-common-protos", specifier = "==1.70.0" },
     { name = "grpc-google-iam-v1", specifier = "==0.14.0" },
     { name = "grpcio", specifier = "==1.71.0" },
