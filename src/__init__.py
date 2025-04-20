@@ -33,8 +33,6 @@ def create_app():
     app.register_blueprint(health_bp, url_prefix=f"{API_PREFIX}/{API_PREFIX_HEALTH}")
     app.register_blueprint(case_bp, url_prefix=f"{API_PREFIX}/{API_PREFIX_CASES}")
 
-    logger.setLevel(logging.INFO)  # pylint: disable=E1101
-
     db.init_app(app)
     migrate.init_app(app, db)
 

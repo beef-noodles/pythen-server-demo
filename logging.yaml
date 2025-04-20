@@ -16,12 +16,6 @@ formatters:
       CRITICAL: "red,bg_white"
 
 handlers:
-  console:
-    class: logging.StreamHandler
-    level: DEBUG
-    formatter: simple
-    stream: ext://sys.stdout
-
   info_file_handler:
     class: logging.handlers.RotatingFileHandler
     level: INFO
@@ -46,12 +40,6 @@ handlers:
     formatter: colored
     stream: ext://sys.stdout
 
-loggers:
-  my_module:
-    level: ERROR
-    handlers: [console]
-    propagate: no
-
 root:
-  level: INFO
+  level: DEBUG
   handlers: [colored_console, info_file_handler, error_file_handler]
