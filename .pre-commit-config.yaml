@@ -18,6 +18,12 @@ repos:
         require_serial: true
         stages:
           - pre-push
+      - id: generate requirement.txt
+        name: Generate requirements.txt
+        entry: ./scripts/git-hooks/generate-requirements.sh
+        language: script
+        always_run: true
+        stages: [pre-push]
   - repo: https://github.com/pre-commit/pre-commit-hooks
     rev: v5.0.0
     hooks:
