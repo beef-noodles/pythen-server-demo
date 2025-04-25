@@ -27,7 +27,7 @@ dependencies = [
     "googleapis-common-protos==1.70.0",
     "grpc-google-iam-v1==0.14.0",
     "grpcio==1.71.0",
-    "grpcio-status==1.71.0",
+    "grpcio-status==1.72.0",
     "gunicorn==23.0.0",
     "idna==3.10",
     "iniconfig==2.1.0",
