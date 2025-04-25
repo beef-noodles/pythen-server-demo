@@ -63,7 +63,7 @@ grpc-google-iam-v1==0.14.0
     # via
     #   python-server-demo (pyproject.toml)
     #   google-cloud-secret-manager
-grpcio==1.71.0
+grpcio==1.72.0
     # via
     #   python-server-demo (pyproject.toml)
     #   google-api-core
