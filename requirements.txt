@@ -22,7 +22,7 @@ certifi==2025.4.26
     # via
     #   python-server-demo (pyproject.toml)
     #   requests
-charset-normalizer==3.4.1
+charset-normalizer==3.4.2
     # via
     #   python-server-demo (pyproject.toml)
     #   requests
