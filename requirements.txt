@@ -26,7 +26,7 @@ charset-normalizer==3.4.1
     # via
     #   python-server-demo (pyproject.toml)
     #   requests
-click==8.1.8
+click==8.2.1
     # via flask
 colorlog==6.9.0
     # via python-server-demo (pyproject.toml)
