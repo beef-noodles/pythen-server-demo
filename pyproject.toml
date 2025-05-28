@@ -55,7 +55,7 @@ dependencies = [
     "sqlalchemy==2.0.40",
     "typing-extensions==4.13.2",
     "urllib3==2.4.0",
-    "uuid-utils==0.10.0",
+    "uuid-utils==0.11.0",
     "uuid-v7==1.0.0",
 ]
 
