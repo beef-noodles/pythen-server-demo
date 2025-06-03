@@ -172,7 +172,7 @@ sqlalchemy==2.0.41
     #   python-server-demo (pyproject.toml)
     #   alembic
     #   flask-sqlalchemy
-typing-extensions==4.13.2
+typing-extensions==4.14.0
     # via
     #   python-server-demo (pyproject.toml)
     #   alembic
