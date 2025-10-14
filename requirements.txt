@@ -51,7 +51,7 @@ google-auth==2.40.2
     #   python-server-demo (pyproject.toml)
     #   google-api-core
     #   google-cloud-secret-manager
-google-cloud-secret-manager==2.23.3
+google-cloud-secret-manager==2.25.0
     # via python-server-demo (pyproject.toml)
 googleapis-common-protos==1.70.0
     # via
