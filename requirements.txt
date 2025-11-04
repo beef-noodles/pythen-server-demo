@@ -131,7 +131,7 @@ pyasn1-modules==0.4.2
     #   google-auth
 pydantic==2.10.6
     # via python-server-demo (pyproject.toml)
-pydantic-core==2.27.2
+pydantic-core==2.41.5
     # via
     #   python-server-demo (pyproject.toml)
     #   pydantic
