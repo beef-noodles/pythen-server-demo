@@ -92,6 +92,7 @@ mako==1.3.10
     # via alembic
 markupsafe==3.0.2
     # via
+    #   flask
     #   jinja2
     #   mako
     #   werkzeug
@@ -131,10 +132,8 @@ pyasn1-modules==0.4.2
     #   google-auth
 pydantic==2.10.6
     # via python-server-demo (pyproject.toml)
-pydantic-core==2.41.5
-    # via
-    #   python-server-demo (pyproject.toml)
-    #   pydantic
+pydantic-core==2.27.2
+    # via pydantic
 pyproject-hooks==1.2.0
     # via
     #   python-server-demo (pyproject.toml)
