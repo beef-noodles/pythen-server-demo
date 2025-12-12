@@ -157,7 +157,7 @@ rsa==4.9.1
     # via
     #   python-server-demo (pyproject.toml)
     #   google-auth
-ruff==0.11.12
+ruff==0.14.9
     # via python-server-demo (pyproject.toml)
 scramp==1.4.5
     # via
