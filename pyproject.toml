@@ -16,7 +16,7 @@ dependencies = [
     "build==1.2.2.post1",
     "cachetools==5.5.1",
     "certifi==2025.4.26",
-    "charset-normalizer==3.4.2",
+    "charset-normalizer==3.4.4",
     "colorlog>=6.9.0",
     "flask>=3.1.0",
     "flask-httpauth>=4.8.0",
