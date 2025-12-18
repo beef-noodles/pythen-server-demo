@@ -100,7 +100,7 @@ packaging==25.0
     #   python-server-demo (pyproject.toml)
     #   build
     #   gunicorn
-pg8000==1.31.2
+pg8000==1.31.5
     # via python-server-demo (pyproject.toml)
 pluggy==1.6.0
     # via python-server-demo (pyproject.toml)
