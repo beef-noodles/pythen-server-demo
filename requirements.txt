@@ -18,7 +18,7 @@ cachetools==5.5.1
     # via
     #   python-server-demo (pyproject.toml)
     #   google-auth
-certifi==2025.4.26
+certifi==2025.11.12
     # via
     #   python-server-demo (pyproject.toml)
     #   requests
