@@ -12,7 +12,7 @@ asn1crypto==1.5.1
     #   scramp
 blinker==1.9.0
     # via flask
-build==1.2.2.post1
+build==1.4.0
     # via python-server-demo (pyproject.toml)
 cachetools==5.5.1
     # via
