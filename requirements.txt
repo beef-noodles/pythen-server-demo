@@ -42,7 +42,7 @@ flask-migrate==4.1.0
     # via python-server-demo (pyproject.toml)
 flask-sqlalchemy==3.1.1
     # via flask-migrate
-google-api-core==2.25.0
+google-api-core==2.29.0
     # via
     #   python-server-demo (pyproject.toml)
     #   google-cloud-secret-manager
