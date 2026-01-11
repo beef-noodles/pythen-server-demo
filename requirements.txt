@@ -130,9 +130,9 @@ pyasn1-modules==0.4.2
     # via
     #   python-server-demo (pyproject.toml)
     #   google-auth
-pydantic==2.10.6
+pydantic==2.12.5
     # via python-server-demo (pyproject.toml)
-pydantic-core==2.27.2
+pydantic-core==2.41.5
     # via
     #   python-server-demo (pyproject.toml)
     #   pydantic
@@ -173,13 +173,16 @@ sqlalchemy==2.0.41
     #   python-server-demo (pyproject.toml)
     #   alembic
     #   flask-sqlalchemy
-typing-extensions==4.14.0
+typing-extensions==4.14.1
     # via
     #   python-server-demo (pyproject.toml)
     #   alembic
     #   pydantic
     #   pydantic-core
     #   sqlalchemy
+    #   typing-inspection
+typing-inspection==0.4.2
+    # via pydantic
 urllib3==2.4.0
     # via
     #   python-server-demo (pyproject.toml)
