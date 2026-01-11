@@ -22,7 +22,7 @@ dependencies = [
     "flask-httpauth>=4.8.0",
     "flask-migrate>=4.1.0",
     "google-api-core==2.25.0",
-    "google-auth==2.40.2",
+    "google-auth==2.47.0",
     "google-cloud-secret-manager==2.23.3",
     "googleapis-common-protos==1.70.0",
     "grpc-google-iam-v1==0.14.0",
