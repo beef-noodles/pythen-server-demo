@@ -168,7 +168,7 @@ six==1.17.0
     # via
     #   python-server-demo (pyproject.toml)
     #   python-dateutil
-sqlalchemy==2.0.41
+sqlalchemy==2.0.45
     # via
     #   python-server-demo (pyproject.toml)
     #   alembic
