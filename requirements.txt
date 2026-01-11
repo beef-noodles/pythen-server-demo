@@ -160,7 +160,7 @@ rsa==4.9.1
     #   google-auth
 ruff==0.11.12
     # via python-server-demo (pyproject.toml)
-scramp==1.4.5
+scramp==1.4.8
     # via
     #   python-server-demo (pyproject.toml)
     #   pg8000
