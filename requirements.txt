@@ -76,7 +76,7 @@ grpcio-status==1.71.0
     #   google-api-core
 gunicorn==23.0.0
     # via python-server-demo (pyproject.toml)
-idna==3.10
+idna==3.11
     # via
     #   python-server-demo (pyproject.toml)
     #   requests
