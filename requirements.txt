@@ -80,7 +80,7 @@ idna==3.10
     # via
     #   python-server-demo (pyproject.toml)
     #   requests
-iniconfig==2.1.0
+iniconfig==2.3.0
     # via python-server-demo (pyproject.toml)
 itsdangerous==2.2.0
     # via flask
